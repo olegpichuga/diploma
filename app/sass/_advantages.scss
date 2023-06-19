@@ -1,0 +1,10 @@
+.advantages {
+    padding-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+
+    .advantages {
+        padding-bottom: 0 -30px;
+    }
+}

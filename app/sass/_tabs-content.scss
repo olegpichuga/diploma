@@ -1,0 +1,40 @@
+.tabs-content {
+    padding-top: 30px;
+}
+
+.tabs-content__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    color: $white;
+}
+
+.tabs-content__text {
+    font-size: 19px;
+    line-height: 30px;
+    color: $white;
+}
+
+@media (min-width: 768px) {
+    .tabs-content {
+        padding-top: 60px;
+    }
+
+    .tabs-content__title {
+        font-size: 30px;
+        line-height: 37px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .tabs-content {
+        border-top: none;
+        padding-left: 60px;
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 1320px) {
+    
+}

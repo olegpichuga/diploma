@@ -1,0 +1,37 @@
+.tabs-btn {
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: $grey-text;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    // margin-bottom: 30px;
+}
+
+.tabs-btn--active {
+    background: $gradient-red-text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 768px) {
+    .tabs-btn {
+        font-size: 38px;
+        line-height: 46px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .tabs-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 1320px) {
+    
+}
