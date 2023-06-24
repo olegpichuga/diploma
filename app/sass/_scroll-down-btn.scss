@@ -7,3 +7,13 @@
     padding-top: 5px;
 }
 
+.scroll-down-btn:hover {
+    border-color: rgba(240, 20, 90, 0.5);
+}
+
+.scroll-down-btn:hover path {
+    stroke: $accent;
+}
+    
+
+

@@ -9,8 +9,6 @@
     margin-bottom: 30px;
 }
 
-
-
 .partners__logo {
     height: 120px;
     width: 100%;
@@ -22,12 +20,15 @@
 .partners__logo--blue {
     background-color: #1C4280;
 }
+
 .partners__logo--emerald {
     background-color: #143646;
 }
+
 .partners__logo--nautical {
     background-color: #1D4568;
 }
+
 .partners__logo--cyan {
     background-color: #DCF3F9;
 }
@@ -35,6 +36,7 @@
 .partners__logo--orange {
     background-color: #F48B30;
 }
+
 .partners__logo--red {
     background-color: #C71C36;
 }
@@ -42,6 +44,7 @@
 .partners__logo--purple {
     background-color: #9E4DC3;
 }
+
 .partners__logo--violet {
     background-color: #282240;
 }
@@ -61,7 +64,6 @@
 .partners__logo--visible {
     display: none;
 }
-
 
 @media (min-width: 768px) {
     .partners__box {

@@ -1,0 +1,20 @@
+.achievements {
+    background-color: $grey-bg;
+    padding-top: 30px;
+}
+
+.achievements__tittle {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.achievements__points {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    justify-content: center;   
+}

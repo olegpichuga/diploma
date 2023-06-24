@@ -1,0 +1,53 @@
+.achievements-slider {
+    padding-bottom: 30px;
+    display: flex;
+    margin: 0 -30px;
+}
+
+.achievements-slider__item {
+    margin: 0 30px;
+    width: 100%;
+}
+
+.achievements-slider__item--desktop {
+    display: none;
+}
+
+.achievements-slider__box {
+    background-color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    font-size: 0;
+    border-radius: 12px;
+}
+
+.achievements-slider__box img {
+    height: 40px;
+}
+
+@media (min-width: 768px) {
+    .achievements-slider {
+        margin: 0 -20px;
+    }
+
+    .achievements-slider__item {
+        margin: 0 20px;
+        width: 25%;
+    }
+
+    .achievements-slider__item--desktop {
+        display: block;
+    }
+}
+
+@media (min-width: 1024px) {
+    .achievements-slider__box {
+        height: 110px;
+    }
+    
+    .achievements-slider__box img {
+        height: 60px;
+    }
+}

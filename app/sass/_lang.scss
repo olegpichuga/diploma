@@ -1,0 +1,41 @@
+.lang {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.lang--active {
+    background-color: $accent;
+}
+
+.lang li {
+    padding: 5px 7px;
+    border-radius: 8px;
+}
+
+.lang li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.lang--black li:hover {
+    background-color: $grey-bg;
+}
+
+.lang a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $white;
+}
+
+.lang--black a {
+    color: $grey-text;
+}
+
+.lang--active-black a {
+    color: $white;
+}

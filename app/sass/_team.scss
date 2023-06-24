@@ -10,15 +10,14 @@
     margin-bottom: 30px;
 }
 
-.team__photo img {
-    max-height: 500px;
-    max-width: 100%;
+.team__img {
+    height: 500px;
+    width: 100%;
     background-size: cover;
     object-fit: cover;
     display: block;
     border-radius: 12px 12px 0 0;
 }
-
 
 .team__about-box {
     background-color: $grey-bg;
@@ -48,34 +47,22 @@
     
 }
 
-.points-btn {
-    margin: 0 7.5px;
-    background-color: rgba(36, 163, 255, 0.2);
-    height: 16px;
-    width: 16px;
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
-}
-.points-btn:hover {
-    background-color: $active-hover;
-}
-
-.points-btn--active {
-    background-color: $active-regular;
-}
-
-
-@media (min-width: 768px) {
-    .team__photo img {
-        height: 100%;
-        object-fit: cover;
-    }
-}
-
 @media (min-width: 1024px) {
-    .team__photo img {
+    .team__persons {
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .team__img {
+        width: 400px;
         height: 100%;
-        object-fit: cover;
+        border-radius: 12px 0 0 12px;
+    }
+
+    .team__about-box {
+        background-color: $grey-bg;
+        padding: 30px;
+        border-radius: 0 12px 12px 0;
     }
 }

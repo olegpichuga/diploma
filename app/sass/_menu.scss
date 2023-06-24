@@ -1,0 +1,77 @@
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__list {
+    list-style: none;
+    padding-left: 0;
+    display: none;
+}
+
+.menu__list li:not(:last-child) {
+    margin-right: 15px;
+}
+
+.menu__list a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: $white;
+    text-decoration: none;
+}
+
+.menu__list--black a {
+    color: $active-regular;
+}
+
+.menu__list a:hover {
+    text-decoration-line: underline;
+    text-decoration-color: $white;
+}
+
+.menu__list--black a:hover {
+    color: $accent;
+    text-decoration-line: underline;
+    text-decoration-color: $accent;
+}
+
+.menu__active a {
+    text-decoration: underline;
+    color: $accent;
+}
+
+.menu__btn {
+    background-image: url(../image/burger.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    margin-top: 8px;
+    width: 32px;
+    height: 32px;
+    padding: 0 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: transparent;
+    cursor: pointer;       
+}
+
+.menu__btn--black {
+    background-image: url(../image/burger-black.svg);     
+}
+
+@media (min-width: 768px) {
+    .menu__btn {
+        display: none;
+    }
+
+    .menu__list {
+       display: flex; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .menu {
+        justify-content: flex-end;
+    }
+}
